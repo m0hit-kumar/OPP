@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074785307509",
+    "project_id": "opp-online-placement-por-29b7b",
+    "storage_bucket": "opp-online-placement-por-29b7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074785307509:android:833c54bfa32195ff36a13c",
+        "android_client_info": {
+          "package_name": "com.example.opp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074785307509-in3k6t0r6ekp7v2qhttt6faq8gcsdis0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk6wPBYMcfgE6qK6gcupQLUy71j9_dVfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074785307509-in3k6t0r6ekp7v2qhttt6faq8gcsdis0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

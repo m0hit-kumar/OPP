@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1074785307509-in3k6t0r6ekp7v2qhttt6faq8gcsdis0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1074785307509</string>
+    <string name="google_api_key" translatable="false">AIzaSyAk6wPBYMcfgE6qK6gcupQLUy71j9_dVfQ</string>
+    <string name="google_app_id" translatable="false">1:1074785307509:android:833c54bfa32195ff36a13c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAk6wPBYMcfgE6qK6gcupQLUy71j9_dVfQ</string>
+    <string name="google_storage_bucket" translatable="false">opp-online-placement-por-29b7b.appspot.com</string>
+    <string name="project_id" translatable="false">opp-online-placement-por-29b7b</string>
+</resources>
