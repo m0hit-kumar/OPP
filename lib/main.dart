@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:opp/pages/homepage.dart';
-import 'package:opp/login_page.dart';
+import 'package:opp/pages/login_page.dart';
 
 // void main() {
 //   runApp(const MyApp());
