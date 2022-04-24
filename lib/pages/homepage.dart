@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:opp/pages/placement_offers.dart';
+import 'package:opp/pages/placment_page.dart';
 import 'package:opp/pages/profile.dart';
 import 'package:opp/widgets/cards.dart';
 // import 'package:opp/design/colors.dart';
@@ -32,54 +34,65 @@ class _MyHomePageState extends State<MyHomePage> {
                   icon: const Icon(Icons.account_circle, size: 40),
                   onPressed: () {
                     Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const ProfilePage()));
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const ProfilePage(),
+                      ),
+                    );
                   },
                 ),
               ]),
             ),
-            Container(
-              height: 650,
-              color: const Color(0xFFf5f5f8),
-              child: GridView.count(
-                primary: false,
-                padding: const EdgeInsets.all(17),
-                crossAxisSpacing: 10,
-                mainAxisSpacing: 10,
-                crossAxisCount: 2,
-                children: <Widget>[
-                  CategoryCard(
-                    subtitle: '200+',
-                    onTap: () {},
-                    title: 'Placement',
-                    url: 'assets/images/jobs.png',
-                  ),
-                  CategoryCard(
-                    subtitle: '200+',
-                    onTap: () {},
-                    title: 'Practice',
-                    url: 'assets/images/practice.png',
-                  ),
-                  CategoryCard(
-                    subtitle: '200+',
-                    onTap: () {},
-                    title: 'Companies Visited',
-                    url: 'assets/images/companies-visited.png',
-                  ),
-                  CategoryCard(
-                    subtitle: '200+',
-                    onTap: () {},
-                    title: 'Consultation',
-                    url: 'assets/images/consultation.png',
-                  ),
-                  CategoryCard(
-                    subtitle: '200+',
-                    onTap: () {},
-                    title: 'Resume Builder',
-                    url: 'assets/images/resume-builder.png',
-                  ),
-                ],
+            Expanded(
+              flex: 1,
+              child: Container(
+                color: const Color(0xFFf5f5f8),
+                child: GridView.count(
+                  primary: false,
+                  padding: const EdgeInsets.all(17),
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  crossAxisCount: 2,
+                  children: <Widget>[
+                    CategoryCard(
+                      subtitle: '200+',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const PlacmentPage2(),
+                          ),
+                        );
+                      },
+                      title: 'Placement',
+                      url: 'assets/images/jobs.png',
+                    ),
+                    CategoryCard(
+                      subtitle: '200+',
+                      onTap: () {},
+                      title: 'Practice',
+                      url: 'assets/images/practice.png',
+                    ),
+                    CategoryCard(
+                      subtitle: '200+',
+                      onTap: () {},
+                      title: 'Companies Visited',
+                      url: 'assets/images/companies-visited.png',
+                    ),
+                    CategoryCard(
+                      subtitle: '200+',
+                      onTap: () {},
+                      title: 'Consultation',
+                      url: 'assets/images/consultation.png',
+                    ),
+                    CategoryCard(
+                      subtitle: '200+',
+                      onTap: () {},
+                      title: 'Resume Builder',
+                      url: 'assets/images/resume-builder.png',
+                    ),
+                  ],
+                ),
               ),
             )
           ])),

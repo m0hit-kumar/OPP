@@ -48,7 +48,8 @@ dev_dependencies:
   cloud_firestore: ^3.1.8
   firebase_core: ^1.12.0
   firebase_auth: ^3.3.4
-  path_provider: ^2.0.9
+  path_provider:
+  url_launcher: ^6.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -67,6 +68,8 @@ flutter:
     - assets/images/companies-visited.png
     - assets/images/consultation.png
     - assets/images/resume-builder.png
+    - assets/images/google.jpg
+    - assets/images/practicing_graphics.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
