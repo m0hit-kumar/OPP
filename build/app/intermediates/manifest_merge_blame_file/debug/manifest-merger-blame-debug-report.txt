@@ -12,16 +12,16 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->E:\college Project\6 SEM\APP\opp\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->E:\college Project\6 SEM\APP\opp\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->/Users/shivamgoyal/Downloads/OPP-master/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/shivamgoyal/Downloads/OPP-master/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->E:\college Project\6 SEM\APP\opp\android\app\src\main\AndroidManifest.xml:3:5-79
-15-->E:\college Project\6 SEM\APP\opp\android\app\src\main\AndroidManifest.xml:3:22-76
+15-->/Users/shivamgoyal/Downloads/OPP-master/android/app/src/main/AndroidManifest.xml:3:5-79
+15-->/Users/shivamgoyal/Downloads/OPP-master/android/app/src/main/AndroidManifest.xml:3:22-76
 16
 17    <application
 18        android:name="android.app.Application"
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.6.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.6.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/14b93615368c2249f1830e26ca064ab5/core-1.6.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
 22        android:label="opp" >
@@ -59,166 +59,166 @@
 54            android:value="2" />
 55
 56        <service
-56-->[:firebase_auth] E:\college Project\6 SEM\APP\opp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+56-->[:firebase_auth] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 57            android:name="com.google.firebase.components.ComponentDiscoveryService"
-57-->[:firebase_auth] E:\college Project\6 SEM\APP\opp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+57-->[:firebase_auth] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 58            android:directBootAware="true"
-58-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+58-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
 59            android:exported="false" >
-59-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:66:13-37
+59-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
 60            <meta-data
-60-->[:firebase_auth] E:\college Project\6 SEM\APP\opp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+60-->[:firebase_auth] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-61-->[:firebase_auth] E:\college Project\6 SEM\APP\opp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+61-->[:firebase_auth] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[:firebase_auth] E:\college Project\6 SEM\APP\opp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+62-->[:firebase_auth] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 63            <meta-data
-63-->[:cloud_firestore] E:\college Project\6 SEM\APP\opp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+63-->[:cloud_firestore] /Users/shivamgoyal/Downloads/OPP-master/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-64-->[:cloud_firestore] E:\college Project\6 SEM\APP\opp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+64-->[:cloud_firestore] /Users/shivamgoyal/Downloads/OPP-master/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[:cloud_firestore] E:\college Project\6 SEM\APP\opp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+65-->[:cloud_firestore] /Users/shivamgoyal/Downloads/OPP-master/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 66            <meta-data
-66-->[:firebase_core] E:\college Project\6 SEM\APP\opp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+66-->[:firebase_core] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-67-->[:firebase_core] E:\college Project\6 SEM\APP\opp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+67-->[:firebase_core] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[:firebase_core] E:\college Project\6 SEM\APP\opp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+68-->[:firebase_core] /Users/shivamgoyal/Downloads/OPP-master/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 69            <meta-data
-69-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+69-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
 70                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-70-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+70-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+71-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
 72            <meta-data
-72-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\194d5be88c5e24bb9d08f12c228fe63c\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
+72-->[com.google.firebase:firebase-firestore:24.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/194d5be88c5e24bb9d08f12c228fe63c/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:20:13-22:85
 73                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-73-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\194d5be88c5e24bb9d08f12c228fe63c\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+73-->[com.google.firebase:firebase-firestore:24.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/194d5be88c5e24bb9d08f12c228fe63c/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:21:17-111
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\194d5be88c5e24bb9d08f12c228fe63c\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
+74-->[com.google.firebase:firebase-firestore:24.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/194d5be88c5e24bb9d08f12c228fe63c/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:22:17-82
 75        </service>
 76
 77        <activity
-77-->[:url_launcher_android] E:\college Project\6 SEM\APP\opp\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+77-->[:url_launcher_android] /Users/shivamgoyal/Downloads/OPP-master/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 78            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-78-->[:url_launcher_android] E:\college Project\6 SEM\APP\opp\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+78-->[:url_launcher_android] /Users/shivamgoyal/Downloads/OPP-master/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 79            android:exported="false"
-79-->[:url_launcher_android] E:\college Project\6 SEM\APP\opp\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+79-->[:url_launcher_android] /Users/shivamgoyal/Downloads/OPP-master/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
 80            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-80-->[:url_launcher_android] E:\college Project\6 SEM\APP\opp\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+80-->[:url_launcher_android] /Users/shivamgoyal/Downloads/OPP-master/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 81
 82        <uses-library
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+82-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 83            android:name="androidx.window.extensions"
-83-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+83-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 84            android:required="false" />
-84-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+84-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 85        <uses-library
-85-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+85-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 86            android:name="androidx.window.sidecar"
-86-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+86-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 87            android:required="false" />
-87-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+87-->[androidx.window:window:1.0.0-beta04] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 88
 89        <activity
-89-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+89-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
 90            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-90-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+90-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
 91            android:excludeFromRecents="true"
-91-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+91-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
 92            android:exported="true"
-92-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+92-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
 93            android:launchMode="singleTask"
-93-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+93-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
 94            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-94-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+94-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
 95            <intent-filter>
-95-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+95-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
 96                <action android:name="android.intent.action.VIEW" />
-96-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
-96-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+96-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+96-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
 97
 98                <category android:name="android.intent.category.DEFAULT" />
-98-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
-98-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+98-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+98-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
 99                <category android:name="android.intent.category.BROWSABLE" />
-99-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
-99-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+99-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+99-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
 100
 101                <data
-101-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+101-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
 102                    android:host="firebase.auth"
-102-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+102-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
 103                    android:path="/"
-103-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+103-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
 104                    android:scheme="genericidp" />
-104-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+104-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
 105            </intent-filter>
 106        </activity>
 107        <activity
-107-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+107-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
 108            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-108-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+108-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
 109            android:excludeFromRecents="true"
-109-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+109-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
 110            android:exported="true"
-110-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+110-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
 111            android:launchMode="singleTask"
-111-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+111-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
 112            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-112-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+112-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
 113            <intent-filter>
-113-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+113-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
 114                <action android:name="android.intent.action.VIEW" />
-114-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
-114-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+114-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+114-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
 115
 116                <category android:name="android.intent.category.DEFAULT" />
-116-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
-116-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+116-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+116-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
 117                <category android:name="android.intent.category.BROWSABLE" />
-117-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
-117-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+117-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+117-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
 118
 119                <data
-119-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+119-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
 120                    android:host="firebase.auth"
-120-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+120-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
 121                    android:path="/"
-121-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+121-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
 122                    android:scheme="recaptcha" />
-122-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0cd31a8007b82ec10dce55ca37be1d81\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+122-->[com.google.firebase:firebase-auth:21.0.3] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/0cd31a8007b82ec10dce55ca37be1d81/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
 123            </intent-filter>
 124        </activity>
 125
 126        <provider
-126-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+126-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
 127            android:name="com.google.firebase.provider.FirebaseInitProvider"
-127-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+127-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
 128            android:authorities="com.example.opp.firebaseinitprovider"
-128-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+128-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
 129            android:directBootAware="true"
-129-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+129-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
 130            android:exported="false"
-130-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+130-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
 131            android:initOrder="100" />
-131-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\b25e52f5739b5665d39d607baa2467f6\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+131-->[com.google.firebase:firebase-common:20.1.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
 132
 133        <activity
-133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+133-->[com.google.android.gms:play-services-base:18.0.1] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+134-->[com.google.android.gms:play-services-base:18.0.1] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 135            android:exported="false"
-135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+135-->[com.google.android.gms:play-services-base:18.0.1] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-136-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c0769389455a4c14b7a50bc2530cb4a\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+136-->[com.google.android.gms:play-services-base:18.0.1] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 137
 138        <meta-data
-138-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+138-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 139            android:name="com.google.android.gms.version"
-139-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+139-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
 140            android:value="@integer/google_play_services_version" />
-140-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4a1e8147c3db656939cfc830651ce63e\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+140-->[com.google.android.gms:play-services-basement:18.0.0] /Users/shivamgoyal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 141    </application>
 142
 143</manifest>
