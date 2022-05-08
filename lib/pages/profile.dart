@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:opp/design/colors.dart';
 import 'package:opp/widgets/custom_textfield.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -43,10 +44,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       icon: const Icon(Icons.logout_rounded,
                           size: 20, color: Colors.red),
                       onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const ProfilePage()));
+                        // Firebas
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //         builder: (context) => const ProfilePage()));
                       },
                     ),
                   ),

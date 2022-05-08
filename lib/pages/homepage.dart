@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:opp/floating_stat.dart';
 import 'package:opp/pages/placement_offers.dart';
 import 'package:opp/pages/placment_page.dart';
 import 'package:opp/pages/profile.dart';
@@ -23,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.all(8.0),
               child: Row(children: [
                 const Text(
-                  "Catogeires",
+                  "Categories",
                   style: TextStyle(
                       color: Color(0xFF130A33),
                       fontSize: 16,
@@ -94,7 +95,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-            )
+            ),
+        Container(
+          alignment: Alignment.bottomCenter,
+          // margin: EdgeInsets.all(8),
+          child: FloatingStat(),
+        )
           ])),
     );
   }
