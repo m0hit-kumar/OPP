@@ -18,7 +18,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.16.1 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -50,7 +50,9 @@ dev_dependencies:
   firebase_auth: ^3.3.4
   path_provider:
   url_launcher: ^6.1.0
-
+  charts_flutter: ^0.12.0
+  syncfusion_flutter_gauges: ^20.1.52
+  flutter_inappwebview: any
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -68,8 +70,12 @@ flutter:
     - assets/images/companies-visited.png
     - assets/images/consultation.png
     - assets/images/resume-builder.png
-    - assets/images/google.jpg
+#    - assets/images/google.jpg
     - assets/images/practicing_graphics.png
+    - assets/images/googlr.png
+    - assets/images/lg.png
+    - assets/images/success.png
+    - assets/images/success4.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
